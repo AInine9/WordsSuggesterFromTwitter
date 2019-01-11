@@ -19,7 +19,7 @@ public class Twitter4JRequester {
         //検索ツイート数を設定
         query.setCount(count);
 
-        QueryResult result = null;
+        QueryResult result;
 
         try {
             result = twitter.search(query);
